@@ -1,8 +1,14 @@
 // import "src/app.css";
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import MovieCard from "./components/Movies/MovieCard";
 
-export default function app() {
+
+
+const App = () => {
   return (
-    <div>app</div>
-  )
-}
+    <div>
+      <MovieCard />
+    </div>
+  );
+};
+export default App;
