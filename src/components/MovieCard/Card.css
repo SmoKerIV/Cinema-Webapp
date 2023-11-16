@@ -1,0 +1,52 @@
+.Mcard{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 75px;
+    margin-top: 25px;
+    gap: 10px;
+    color: #fff;
+}
+.Mcard .content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card{
+    width: 230px;
+    height: 300px;
+    margin: 100px auto;
+
+}
+
+.img{
+    width: 230px;
+    height: 300px;
+}
+.img img{
+    width: 230px;
+    height: 300px;
+}
+@media screen and (max-width: 1300px) {
+    .Mcard{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+}
+@media screen and (max-width: 1080px) {
+    .Mcard{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+@media screen and (max-width: 852px) {
+    .Mcard{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+@media screen and (max-width: 610px) {
+    .Mcard{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
